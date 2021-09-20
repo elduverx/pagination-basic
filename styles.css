@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+.pagination {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.pagination a {
+  font-family: 'Open Sans', sans-serif;
+  background: #ccc;
+  padding: 10px 16px 10px 16px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  position: relative;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.pagination a:hover {
+  background: #21c6cc;
+  transition-duration: 0.3s;
+}
+
+.active {
+  background: #00b894;
+  transition-duration: 0.3s;
+}
